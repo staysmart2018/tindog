@@ -23,6 +23,7 @@
 
 <body>
 
+  <div class="loader"></div>
   <section class="colored-section" id="title">
 
     <div class="container-fluid">
@@ -234,6 +235,12 @@
     </div>
   </footer>
 
+  <script>
+    $(window).on("load",function(){
+     $(".loader-wrapper").fadeOut("slow");
+    });
+    
+  </script>
 
 </body>
 
